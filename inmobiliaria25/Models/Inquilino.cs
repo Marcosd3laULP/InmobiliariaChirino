@@ -1,4 +1,9 @@
-public class Inquilino : Persona
+namespace inmobiliaria25.Models
 {
-    
+
+
+    public class Inquilino : Persona
+    {
+
+    }
 }
