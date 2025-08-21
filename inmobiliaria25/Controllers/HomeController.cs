@@ -16,6 +16,8 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         return View();
+        //MI PRIMER HOLA MUNDO
+        //return Content("¡Hola Mundo desde ASP.NET Core MVC! :D :p");
     }
 
     public IActionResult Privacy()

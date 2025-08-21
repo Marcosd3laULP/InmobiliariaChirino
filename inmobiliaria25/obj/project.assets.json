@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\brang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\InmobiliariaChirino\\inmobiliaria25\\inmobiliaria25.csproj",
+      "projectUniqueName": "C:\\Users\\brang\\OneDrive\\Documentos\\GitHub\\InmobiliariaChirino\\inmobiliaria25\\inmobiliaria25.csproj",
       "projectName": "inmobiliaria25",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\InmobiliariaChirino\\inmobiliaria25\\inmobiliaria25.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\InmobiliariaChirino\\inmobiliaria25\\obj\\",
+      "projectPath": "C:\\Users\\brang\\OneDrive\\Documentos\\GitHub\\InmobiliariaChirino\\inmobiliaria25\\inmobiliaria25.csproj",
+      "packagesPath": "C:\\Users\\brang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brang\\OneDrive\\Documentos\\GitHub\\InmobiliariaChirino\\inmobiliaria25\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\brang\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
