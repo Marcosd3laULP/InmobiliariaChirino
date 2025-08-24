@@ -15,6 +15,7 @@ builder.Services.AddDbContext<InmobiliariaContext>(options =>
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
 
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
