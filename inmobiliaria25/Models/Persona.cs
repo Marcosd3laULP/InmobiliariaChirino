@@ -1,15 +1,25 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace inmobiliaria25.Models
 {
-
     public abstract class Persona
     {
-        public int id { get; set; }
-        public string nombre { get; set; } = string.Empty;
-        public string apellido { get; set; } = string.Empty;
-        public string dni { get; set; } = string.Empty;
-        public string email { get; set; } = string.Empty;
-        public string telefono { get; set; } = string.Empty;
+        [Key]
+        public int Id { get; set; }
 
+        [Required, MaxLength(50)]
+        public string Nombre { get; set; }
+
+        [Required, MaxLength(50)]
+        public string Apellido { get; set; }
+
+        [Required]
+        public string Dni { get; set; }
+
+        [Required, EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        public string Telefono { get; set; }
     }
-
 }

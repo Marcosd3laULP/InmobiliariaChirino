@@ -43,7 +43,7 @@ namespace inmobiliaria25.Controllers
         // GET: Propietarios/Details/5
         public IActionResult Details(int id)
         {
-            var propietario = _context.Propietarios.FirstOrDefault(p => p.id == id);
+            var propietario = _context.Propietarios.FirstOrDefault(p => p.Id == id);
             if (propietario == null)
             {
                 return NotFound();
@@ -67,7 +67,7 @@ namespace inmobiliaria25.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Propietario propietario)
         {
-            if (id != propietario.id)
+            if (id != propietario.Id)
             {
                 return NotFound();
             }
