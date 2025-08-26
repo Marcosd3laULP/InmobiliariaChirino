@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("inmobiliaria25")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b13978e33fa9976e11335e1762cc10b339a5001b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6870d8e7b3c87dabbe8faa7a24a3d7e475cd86cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("inmobiliaria25")]
 [assembly: System.Reflection.AssemblyTitleAttribute("inmobiliaria25")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
