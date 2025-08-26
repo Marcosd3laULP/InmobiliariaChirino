@@ -1,0 +1,33 @@
+@model inmobiliaria25.Models.Inquilino
+
+@{
+    ViewData["Title"] = "Nuevo Inquilino";
+}
+
+<h1>Nuevo Propietario</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Apellido"></label>
+        <input asp-for="Apellido" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Dni"></label>
+        <input asp-for="Dni" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefono"></label>
+        <input asp-for="Telefono" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
